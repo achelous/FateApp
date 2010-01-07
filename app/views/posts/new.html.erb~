@@ -1,4 +1,0 @@
-<% form_tag connections_url do -%>
-  <%= render :partial => 'form' %>
-  <input class="submit" name="commit" type="submit" value="Submit" />
-<% end -%>

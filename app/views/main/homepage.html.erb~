@@ -1,6 +1,0 @@
-<h1>Fate</h1>
-
-<% form_tag posts_url do -%>
-  <%= render :partial => 'posts/form' %>
-  <input class ="submit" name="commit" type="submit" value="Submit" />
-<% end %>

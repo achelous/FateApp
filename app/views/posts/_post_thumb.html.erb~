@@ -1,5 +1,0 @@
-  <div class="post-thumb">
-    <h4 class="post-location"><%=h post.location_text.capitalize %></h4>
-    <p class="post-description"><%=h post.description %></p>
-    <p class="signiture"><%=h "-#{post.name}" %></p>
-  </div>

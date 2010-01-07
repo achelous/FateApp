@@ -1,3 +1,0 @@
-  <p class="form-label">E-mail: <input type="text" name="resp[email]" id="email-field" maxlength="50" size="30" /></p>
-  <p class="form-label">Message: <textarea name="resp[message]" id="message-field" cols="40" rows="5"></textarea></p>
-  <input class="submit" name="commit" type="submit" value="Submit" />

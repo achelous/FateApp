@@ -1,3 +1,0 @@
-<% form_tag connection_responses_url do -%>
-  <%= render :partial => 'form' %>
-<% end -%>
