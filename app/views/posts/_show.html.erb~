@@ -1,0 +1,2 @@
+<p>normal</p>
+<%= post.description %>

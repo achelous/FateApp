@@ -1,0 +1,20 @@
+
+  <h2>Share Your Missed Connection</h2>
+  <div class="form-section">
+    <label for='location-field'>Where</label>
+    <input type="text" name="post[location_text]" id="location-field" maxlength="50" />
+  </div>
+  <div class="form-section area-input">
+    <label for='description-field'>What</label>
+    <textarea name="post[description]" id="description-field" cols="33" rows="5"></textarea>
+  </div>
+  <div class="form-section selector">
+    <%= identity_field('post') %> 
+  </div>
+  <div class="form-section selector">
+    <label for="up-for-field" id='up-for'>Are you up for...</label><%= upfor_field('post') %>
+  </div>
+  <div class="form-section">
+    <label for="name-field" id="name-label">Signed</label> 
+     <input type="text" name="post[name]" id="name-field" maxlength="30" />
+  </div>

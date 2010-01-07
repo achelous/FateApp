@@ -1,0 +1,10 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+  bookslam:
+    id: 1
+    name: The Guy in the Hipster Pants
+    location_text: Notting Hill, London
+    description: We went to Book Slam and heard readings from Submarine. You tried to kiss my cheek, but I turned my lips toward you.
+    iam: 0
+    youare: 0
+    upfor: 0		

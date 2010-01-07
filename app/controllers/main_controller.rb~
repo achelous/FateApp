@@ -1,0 +1,7 @@
+class MainController < ApplicationController
+
+  def homepage
+    @posts = Post.find(:all)
+  end
+ 
+end

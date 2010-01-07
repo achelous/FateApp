@@ -1,0 +1,9 @@
+class Response < ActiveRecord::Base
+
+  belongs_to :post
+  
+  validates_associated :post
+#  validates_uniqueness_of :secret_key
+  validates_presence_of :email
+
+end

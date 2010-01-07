@@ -1,0 +1,21 @@
+
+<div id="recent-posts">
+  <h2>Recent Posts</h2>
+  <% for post in @posts -%>
+    <%= render :partial => 'posts/post_thumb', :locals => {:post => post} %>
+  <% end -%>
+  <div class='little-links'>
+    <%= link_to "see all", posts_url %>
+  </div>
+</div>
+
+<div id="search-menu">
+  <%= render :partial => 'posts/search_menu' %>
+</div>
+
+<div id="post-form-wrapper">
+  <% form_tag posts_url do -%>
+    <%= render :partial => 'posts/form' %>
+    <input class ="submit" name="commit" type="submit" value="Submit" />
+  <% end %>
+</div>
